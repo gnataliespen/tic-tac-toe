@@ -1,0 +1,45 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.board {
+  width: 60%;
+  height: 60%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 30px;
+}
+.title {
+  align-self: flex-start;
+  margin: 30px;
+}
+.tile {
+  border: 2px solid black;
+}
+
+.bot-left,
+.bot-center,
+.bot-right {
+  border-bottom: none;
+}
+
+.top-left,
+.top-center,
+.top-right {
+  border-top: none;
+}
+.top-left,
+.mid-left,
+.bot-left {
+  border-left: none;
+}
+.top-right,
+.mid-right,
+.bot-right {
+  border-right: none;
+}
