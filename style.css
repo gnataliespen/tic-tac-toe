@@ -14,9 +14,10 @@
   grid-template-columns: 1fr 1fr 1fr;
   padding: 30px;
 }
-.title {
+.title,
+h2 {
+  margin: 0 10vh;
   align-self: flex-start;
-  margin: 30px;
 }
 .tile {
   border: 2px solid black;
